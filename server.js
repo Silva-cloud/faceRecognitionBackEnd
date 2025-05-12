@@ -17,6 +17,12 @@ const knex= require('knex');
 //   }
 // });
 
+console.log({host : process.env.DBHost,
+    port : process.env.DBPort,
+    user : process.env.DBUser,
+    password : process.env.DBPass,
+    database : process.env.DBName})
+
 const database= knex({
   client: 'pg',
   connection: {
@@ -32,6 +38,8 @@ database.select('*').from('users').then(data =>{
 	// console.log(data);
 });
 //
+
+
 
 
 const app = exp();
