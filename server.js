@@ -58,7 +58,7 @@ M9arGOsTH2zJoldfNnCfp8uuA735tfJKLTOGccZ8Wpt7HgR82Cm55ORnf49H6lqY
 yD27gwE5IZjBqphqZS2dNgvn7GEthG5ThKJ1W7jy3SlizDo/AH9ixue34thJPn49
 XhgXSMUeU4zDO6bvryqKix/j1sG7covUBhjqAGswhTra09DwtyLLFDtawt3rrn2P
 gQ==
------END CERTIFICATE-----`,
+-----END CERTIFICATE-----`
   }
 });
 
