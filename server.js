@@ -20,11 +20,11 @@ const knex= require('knex');
 const database= knex({
   client: 'pg',
   connection: {
-    host : 'tyke.db.elephantsql.com',
-    port : 5432,
-    user : 'smctejjb',
-    password : 'Ld8IQ3-OH19J4DZDGMDspMBzTkf1u0bQ',
-    database : 'smctejjb'
+    host : process.env.DBHost,
+    port : process.env.DBPort,
+    user : process.env.DBUser,
+    password : process.env.DBPass,
+    database : process.env.DBName
   }
 });
 
