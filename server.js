@@ -59,7 +59,7 @@ yD27gwE5IZjBqphqZS2dNgvn7GEthG5ThKJ1W7jy3SlizDo/AH9ixue34thJPn49
 XhgXSMUeU4zDO6bvryqKix/j1sG7covUBhjqAGswhTra09DwtyLLFDtawt3rrn2P
 gQ==
 -----END CERTIFICATE-----`
-  }
+  }}
 });
 
 database.select('*').from('users').then(data =>{
