@@ -33,7 +33,7 @@ const database= knex({
     database : process.env.DBName,
     ssl:{
         rejectUnauthorized: true,
-        ca: `-----BEGIN CERTIFICATE-----
+        sslca: `-----BEGIN CERTIFICATE-----
 MIIETTCCArWgAwIBAgIUL/m/XPKMZuH/hEG9rEnyhzkHB9cwDQYJKoZIhvcNAQEM
 BQAwQDE+MDwGA1UEAww1YmNlZDI0OTgtZTIyMC00Mzc4LWFiNjUtNWM5NmViNGMx
 MmQ4IEdFTiAxIFByb2plY3QgQ0EwHhcNMjUwNTEyMTkzNTUxWhcNMzUwNTEwMTkz
